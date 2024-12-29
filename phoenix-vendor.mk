@@ -127,9 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/xiaomi/phoenix/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/xiaomi/phoenix/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib/rfsa/adsp/misound_karaoke_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaoke_res.bin \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib/rfsa/adsp/misound_karaokemix_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaokemix_res.bin \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib/rfsa/adsp/misound_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensormodule.phoenix_ofilm_gc02m1_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.phoenix_ofilm_gc02m1_depth.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensormodule.phoenix_ofilm_gc02m1_depth_mono.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.phoenix_ofilm_gc02m1_depth_mono.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensormodule.phoenix_ofilm_gc02m1_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.phoenix_ofilm_gc02m1_front.bin \
@@ -182,7 +179,6 @@ PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
     libqtigef \
-    libsn100u_fw \
     libsndmonitor \
     libspkrprot \
     com.qti.sensor.phoenix_gc02m1_depth \
@@ -316,6 +312,7 @@ PRODUCT_PACKAGES += \
     libremosaiclib \
     libsdk_sr \
     libsensorslog \
+    libsn100u_fw \
     libsns_device_mode_stub \
     libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
@@ -365,6 +362,9 @@ PRODUCT_PACKAGES += \
     libscveT2T_skel \
     libsns_device_mode_skel \
     libsns_low_lat_stream_skel \
+    misound_karaoke_res \
+    misound_karaokemix_res \
+    misound_res \
     mi_thermald \
     sensors.qti \
     thermal-engine
