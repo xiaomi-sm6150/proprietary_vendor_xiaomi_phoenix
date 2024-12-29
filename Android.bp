@@ -271,7 +271,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib/libsn100u_fw.so"],
 		},
 	},
@@ -2536,7 +2536,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm64: {
+		: {
 			srcs: ["proprietary/vendor/lib64/liboemcrypto.so"],
 		},
 	},
