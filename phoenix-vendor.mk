@@ -250,7 +250,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_cac3 \
     camera.qcom \
     com.qti.chi.override \
-    consumerir.sm6150 \
     fingerprint.fpc.sm6150 \
     fingerprint.goodix.sm6150 \
     libFaceGrade \
